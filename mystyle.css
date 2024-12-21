@@ -1,0 +1,45 @@
+body {
+	background-image: url("res/bgsea.jpg");
+	}
+@font-face {
+	font-family: Simple;
+	src: url(fonts/Simple-Regular.ttf);
+	}
+div {
+  background-image: url("res/sky.jpg");
+  width: 600px;
+  border: 15px pastel blue;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-family: Simple;
+  place-self: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 600px;
+	height: 300px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container btn {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: gray;
+  color: black;
+  font-size: 1000px;
+  font-family: Simple;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
